@@ -24,4 +24,8 @@ public class Lecturer extends Person {
         return this.specialisation;
     }
 
+    public String toString() {
+    String var10000 = super.toString();
+    return var10000 + " Lecturer - Office Number: " + this.officeNumber + ", Specialisation: " + this.specialisation;
+    }
 }
