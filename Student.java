@@ -21,5 +21,8 @@ public class Student extends Person{
         return this.modulesEnrolled;
     }
 
-    
+    public String toString() {
+    String var10000 = super.toString(); 
+    return var10000 + " Student - Course Title: " + this.courseTitle + ", Modules Enrolled: " + this.modulesEnrolled;
+    }
 }
